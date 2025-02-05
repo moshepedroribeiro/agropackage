@@ -1,9 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Para fazer o processo de QA:
 
-Things you may want to cover:
+1. Rodar o comando no terminal ./script/qa
+
+## Para rodar a aplicação
+
 
 * Ruby version: 3.3.6
 
