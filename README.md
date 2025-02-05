@@ -10,6 +10,11 @@ Este projeto requer:
 
 Estamos usando o Rubocop para ter uma estilização de código consistente.
 
+## Database
+
+1. Estamos usando o postgresql como banco de dados.
+* Para startar o banco de dados de forma local, execute `rails db:create`
+
 ## Para rodar a aplicação
 
 1. Rodar o comando `./bin/dev` 
@@ -17,26 +22,3 @@ Estamos usando o Rubocop para ter uma estilização de código consistente.
 ## Test and Lint
 
 1. Rodar o comando no terminal `./script/qa`
-
-
-
-
-* Ruby version: 3.3.6
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-Rodar rails db:create
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
