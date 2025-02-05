@@ -1,10 +1,24 @@
 # README
 
-## Para fazer o processo de QA:
+Este projeto requer:
 
-1. Rodar o comando no terminal ./script/qa
+* Ruby 3.3.6, preferível utilizar `rbenv`
+* Bun
+* PostgreSQL deve estar instalado e aceitando conexões
+
+## Coding Style
+
+Estamos usando o Rubocop para ter uma estilização de código consistente.
 
 ## Para rodar a aplicação
+
+1. Rodar o comando `./bin/dev` 
+
+## Test and Lint
+
+1. Rodar o comando no terminal `./script/qa`
+
+
 
 
 * Ruby version: 3.3.6
