@@ -22,3 +22,4 @@
 5. aws ecr get-authorization-token --query 'authorizationData[].authorizationToken' --output text --profile agropackage
 6. aws ecr get-login-password --profile agropackage | docker login --username AWS --password-stdin 880495773238.dkr.ecr.us-east-1.amazonaws.com
 7. docker pull 880495773238.dkr.ecr.us-east-1.amazonaws.com/agropackage:latest
+8. docker run -d --name agropackage-app
