@@ -367,6 +367,8 @@ GEM
     ruby-rc4 (0.1.5)
     ruby2_keywords (0.0.5)
     rubyzip (2.4.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     securerandom (0.4.1)
     selenium-webdriver (4.28.0)
       base64 (~> 0.2)
@@ -474,6 +476,7 @@ DEPENDENCIES
   rubocop-rails
   rubocop-rspec
   rubocop-rspec_rails
+  sassc
   selenium-webdriver
   sinatra-contrib
   sprockets-rails
