@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="d-flex align-items-center justify-content-around my-3">
+    <% @categories.each do |category| %>
+      <%= link_to category, '#', class: 'btn btn-light' %>
+    <% end %>
+  </div>
+
+  <div>
+    <%= render 'products' %>
+  </div>
+</div>

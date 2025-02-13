@@ -18,6 +18,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'layouts/main_menu' %>
+
+    <main class="container">
+      <%= yield %>
+    </main>
   </body>
 </html>
